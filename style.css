@@ -1,0 +1,121 @@
+*{
+    margin : 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:  "Questrial", sans-serif;
+}
+body, html{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+}
+.nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 60px;
+
+}
+.nav-part1{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+}
+.nav-part2{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+.nav-part1 h2{
+    font-size: 22px;
+    font-weight:400;
+}
+.nav-part2 h4{
+    font-size: 22px;
+    font-weight:600;
+}
+.content{
+    padding: 30px 60px;
+    margin-top: 30px;
+}
+.content h3{
+    font-size: 40px ;
+    font-weight: 400;
+}
+.content h1{
+    margin-top: 30px;
+    font-size: 123px ;
+    font-weight: 600;
+    line-height: 130px;
+}
+.case{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 65px;
+}
+.pline{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.line{
+    width: 100px;
+    height: 2px;
+    background-color: black;
+
+}
+.line h3{
+    font-size: 22pxss;
+    font-weight: 600;
+}
+.case h3{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.project{ 
+    align-items: center;
+    width: 100%;
+    padding: 30px 65px;
+   
+}
+.img img{
+    width: 100%;
+    object-fit: cover;
+    height: 350px;
+    border-radius: 20px;
+}
+.pcont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.cont{
+    margin-top: 20px ;
+}
+.cont h3{
+    font-size: 22px;
+    font-weight: 600px;
+}
+.cont p{
+    font-size: 15px;
+    font-weight: 500;
+}
+.btn button{
+    width: 64px;
+    padding: 13px 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50px;
+    font-size: 20px;
+}
+.btn button:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
